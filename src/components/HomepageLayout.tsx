@@ -13,6 +13,7 @@ import {
     Sidebar,
     Visibility,
 } from 'semantic-ui-react';
+import logo from 'src/logo.svg';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -64,8 +65,6 @@ interface IDesktopProps {
  */
 class DesktopContainer extends Component<IDesktopProps> {
     render() {
-        const { children } = this.props;
-
         return (
             <Responsive minWidth={Responsive.onlyTablet.minWidth} getWidth={getWidth}>
                 <Visibility>
@@ -73,7 +72,7 @@ class DesktopContainer extends Component<IDesktopProps> {
                         <Menu inverted={true} secondary={true} size="large">
                             <Container>
                                 <Menu.Item as={Link} to="/" name="home">
-                                    {/* <img src={logo} alt="logo" /> */}
+                                    <img src={logo} alt="logo" />
                                 </Menu.Item>
                                 <Pages />
                             </Container>
