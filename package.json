@@ -15,6 +15,7 @@
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
+        "react-snapshot": "^1.3.0",
         "typescript": "^3.7.5"
     },
     "scripts": {
@@ -22,8 +23,9 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -b master -d build",
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build && react-snapshot",
         "test": "react-scripts test",
+        "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
@@ -44,6 +46,7 @@
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^3.2.0",
         "@typescript-eslint/parser": "^3.2.0",
+        "eslint": "^6.6.0",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-prettier": "^3.1.3",
         "prettier": "^2.0.5"
