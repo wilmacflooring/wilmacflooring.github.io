@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.1de0760d.chunk.css",
-    "main.js": "/static/js/main.721f0ffd.chunk.js",
-    "main.js.map": "/static/js/main.721f0ffd.chunk.js.map",
+    "main.js": "/static/js/main.aff6c576.chunk.js",
+    "main.js.map": "/static/js/main.aff6c576.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.23c7ae27.js",
     "runtime-main.js.map": "/static/js/runtime-main.23c7ae27.js.map",
-    "static/js/2.9a571554.chunk.js": "/static/js/2.9a571554.chunk.js",
-    "static/js/2.9a571554.chunk.js.map": "/static/js/2.9a571554.chunk.js.map",
+    "static/js/2.82a1433d.chunk.js": "/static/js/2.82a1433d.chunk.js",
+    "static/js/2.82a1433d.chunk.js.map": "/static/js/2.82a1433d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dd95dedb37731fb286e0fa0a139e64eb.js": "/precache-manifest.dd95dedb37731fb286e0fa0a139e64eb.js",
+    "precache-manifest.84ccf7b531c228b2cfc0077bf38bef70.js": "/precache-manifest.84ccf7b531c228b2cfc0077bf38bef70.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1de0760d.chunk.css.map": "/static/css/main.1de0760d.chunk.css.map",
-    "static/js/2.9a571554.chunk.js.LICENSE.txt": "/static/js/2.9a571554.chunk.js.LICENSE.txt",
+    "static/js/2.82a1433d.chunk.js.LICENSE.txt": "/static/js/2.82a1433d.chunk.js.LICENSE.txt",
     "static/media/rustic-santa-background.jpg": "/static/media/rustic-santa-background.e6e7f56c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.23c7ae27.js",
-    "static/js/2.9a571554.chunk.js",
+    "static/js/2.82a1433d.chunk.js",
     "static/css/main.1de0760d.chunk.css",
-    "static/js/main.721f0ffd.chunk.js"
+    "static/js/main.aff6c576.chunk.js"
   ]
 }
