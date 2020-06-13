@@ -37,10 +37,10 @@ class Pages extends React.Component<IProps> {
                     <Icon name="home" />
                     Home
                 </Menu.Item>
-                <Menu.Item as={Nav} to="/projects" name="projects" onClick={this.props.onClick}>
+                {/* <Menu.Item as={Nav} to="/projects" name="projects" onClick={this.props.onClick}>
                     <Icon name="briefcase" />
                     Projects
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item as={Nav} to="/about" name="about" onClick={this.props.onClick}>
                     <Icon name="info" />
                     About
@@ -174,9 +174,9 @@ const HomepageLayout = ({ children }: any) => (
                     <Grid.Row>
                         <Grid.Column width={13}>
                             <p>
-                                <a href="https://github.com/MattJonesCreation/mattjonescreation.github.io/blob/source/LICENSE">
-                                    All content is copyright © {new Date().getFullYear()} Matt Jones, any trademarks are
-                                    property of their respective owners
+                                <a href="https://github.com/rusticsanta/rusticsanta.github.io/blob/source/LICENSE">
+                                    All content is copyright © {new Date().getFullYear()} Rustic Santa, any trademarks
+                                    are property of their respective owners
                                 </a>
                             </p>
                         </Grid.Column>
