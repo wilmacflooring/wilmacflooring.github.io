@@ -1,6 +1,7 @@
 # rusticsanta.github.io
+
 Rustic Santa Website. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-The main branch for this repo is Source. Since this is a User Page on GitHub Pages, the master branch is used as a deployment branch. 
+The main branch for this repo is Source. Since this is a User Page on GitHub Pages, the master branch is used as a deployment branch.
 
 ## Available Scripts
 
@@ -45,19 +46,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-Designed and built by Matt Jones, bootstrapped with create-react-app. 
+Designed and built by Matt Jones, bootstrapped with create-react-app.
 
-### Technologies 
-* [React documentation](https://reactjs.org/).
-* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-* [Typescript-eslint documentation](https://github.com/typescript-eslint/typescript-eslint).
-* [Prettier documentation](https://prettier.io/)
+### Technologies
 
-* [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
-* [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.  
-* [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
-* [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
-* [React Google Analytics](https://github.com/react-ga/react-ga).
+-   [React documentation](https://reactjs.org/). Frontend framework for developing components.
+-   [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). Build config tool for web applications.
+-   [Typescript documentation](https://www.typescriptlang.org/docs/home.html). Making JS for OOP.
+-   [Typescript-eslint documentation](https://github.com/typescript-eslint/typescript-eslint). Coding standards enforcerer.
+-   [Prettier documentation](https://prettier.io/). Formatting code.
+-   [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
+-   [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.
+-   [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
+-   [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
+-   [React Google Analytics](https://github.com/react-ga/react-ga). Tracking react page clicks and button clicks.
 
 ### Code Splitting
 
@@ -77,8 +79,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
-* This site uses GitHub Pages for Deployment. [GitHub Pages documentation](https://pages.github.com/).
-* [Create React App Deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
+-   This site uses GitHub Pages for Deployment. [GitHub Pages documentation](https://pages.github.com/).
+-   [Create React App Deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
 
 ### `npm run build` fails to minify
 
