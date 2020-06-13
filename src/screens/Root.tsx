@@ -6,13 +6,13 @@ import ScreensHome from './Home/Home';
 import ScreensAbout from './About/About';
 import ScreensContact from './Contact/Contact';
 
-// import GA from '../components/GoogleAnalytics';
-import HomepageLayout from '../components/HomepageLayout';
+import GA from 'src/components/GoogleAnalytics';
+import HomepageLayout from 'src/components/HomepageLayout';
 
 const ScreensRoot = () => (
     <Router>
         {/* Initialize Google Analytics and managing document title, description, and meta */}
-        {/* {GA.init() && <GA.RouteTracker />} */}
+        {GA.init() && <GA.RouteTracker />}
         <HomepageLayout>
             {/* Main Content Routing Pages */}
             <Switch>
