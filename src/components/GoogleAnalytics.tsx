@@ -18,7 +18,7 @@ class GoogleAnalytics extends Component<IGAProps> {
         this.logPageChange(this.props.location.pathname, this.props.location.search);
     }
 
-    componentDidUpdate({ location: prevLocation }: any): void {
+    componentDidUpdate({ location: prevLocation }: IGAProps): void {
         const {
             location: { pathname, search },
         } = this.props;
@@ -30,7 +30,7 @@ class GoogleAnalytics extends Component<IGAProps> {
         }
     }
 
-    logPageChange(pathname: any, search = ''): void {
+    logPageChange(pathname: string, search = ''): void {
         const page = pathname + search;
         const { location } = window;
         ReactGA.set({
@@ -46,9 +46,9 @@ class GoogleAnalytics extends Component<IGAProps> {
     }
 }
 
-const RouteTracker = () => <Route component={GoogleAnalytics} />;
+const RouteTracker: () => JSX.Element = () => <Route component={GoogleAnalytics} />;
 
-const init = (options = {}) => {
+const init: () => boolean = () => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
     if (isGAEnabled) {

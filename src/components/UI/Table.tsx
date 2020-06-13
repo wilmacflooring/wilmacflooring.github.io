@@ -7,7 +7,7 @@ interface IProps {
     headers: Array<any>;
 }
 
-const UITable = (props: IProps) => (
+const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
     <div>
         <Header inverted as="h3">
             {props.title}

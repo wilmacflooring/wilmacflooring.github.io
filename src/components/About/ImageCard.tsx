@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Card } from 'semantic-ui-react';
 import profilePic from 'src/images/rustic-santa-background.jpg';
 
-const AboutImageCard = () => (
+const AboutImageCard: () => JSX.Element = () => (
     <Card centered>
         <Image src={profilePic} />
         <Card.Content>
