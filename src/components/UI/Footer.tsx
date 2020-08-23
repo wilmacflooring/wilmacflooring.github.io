@@ -1,13 +1,14 @@
 import React, { FunctionComponent } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import './Footer.css';
 
 const Footer: FunctionComponent = () => {
     return (
-        <div>
+        <div className="Footer">
             <Container>
                 <Row>
                     <Col>
-                        <p>All content is copyright © {new Date().getFullYear()} Wilmac Flooring.</p>
+                        <i>All content is copyright © {new Date().getFullYear()} Wilmac Flooring.</i>
                     </Col>
                 </Row>
             </Container>

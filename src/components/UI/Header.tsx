@@ -7,7 +7,7 @@ const Header: FunctionComponent = () => {
         <div className="Header">
             <Image
                 cloudName="wilmacflooring"
-                publicId="cropped-StairsTop_rrbedj"
+                publicId="cropped-StairsTop_ywk1mh"
                 secure={true}
                 crop="scale"
                 quality="auto"

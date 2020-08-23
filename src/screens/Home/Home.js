@@ -25,7 +25,7 @@ class ScreensHome extends Component {
                     {/* TODO: Add subject content for SEO. */}
                     <meta name="subject" content="Technology Portfolio" />
                 </Helmet>
-                <div>home page</div>
+                <h1>Coming Soon</h1>
 
                 {/* <Segment inverted textAlign="center" className="Home-segment" vertical>
                     <Container text>

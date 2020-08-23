@@ -6,6 +6,7 @@ import ScreensAbout from './About/About';
 import ScreensContact from './Contact/Contact';
 // import ScreensGallery from './Gallery/Gallery';
 // import ScreensProducts from './Product/Products';
+import NotFound from 'src/components/UI/NotFound';
 
 import GA from 'src/components/GoogleAnalytics';
 import HomepageLayout from 'src/components/HomepageLayout';
@@ -20,6 +21,7 @@ const ScreensRoot: () => JSX.Element = () => (
                 <Route path="/" exact component={ScreensHome} />
                 <Route path="/about/" component={ScreensAbout} />
                 <Route path="/contact/" component={ScreensContact} />
+                <Route component={NotFound} />
                 {/* <Route path="/products/" component={ScreensProducts} /> */}
                 {/* <Route path="/gallery/" component={ScreensGallery} /> */}
             </Switch>

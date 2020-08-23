@@ -1,4 +1,5 @@
 import React, { ReactNode, FunctionComponent } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import Header from './UI/Header';
 import NavigationBar from './UI/NavigationBar';
 import Footer from './UI/Footer';
@@ -11,7 +12,11 @@ const HomepageLayout: FunctionComponent<ILayoutProps> = (props: ILayoutProps) =>
     <div>
         <Header />
         <NavigationBar />
-        {props.children}
+        <Container>
+            <Row>
+                <Col>{props.children}</Col>
+            </Row>
+        </Container>
         <Footer />
     </div>
 );
