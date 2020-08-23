@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import ScreensHome from './Home/Home';
-// import ScreensProjects from './Projects/Projects';
 import ScreensAbout from './About/About';
 import ScreensContact from './Contact/Contact';
+// import ScreensGallery from './Gallery/Gallery';
+// import ScreensProducts from './Product/Products';
 
 import GA from 'src/components/GoogleAnalytics';
 import HomepageLayout from 'src/components/HomepageLayout';
@@ -17,9 +18,10 @@ const ScreensRoot: () => JSX.Element = () => (
             {/* Main Content Routing Pages */}
             <Switch>
                 <Route path="/" exact component={ScreensHome} />
-                {/* <Route path="/projects/" component={ScreensProjects} /> */}
                 <Route path="/about/" component={ScreensAbout} />
                 <Route path="/contact/" component={ScreensContact} />
+                {/* <Route path="/products/" component={ScreensProducts} /> */}
+                {/* <Route path="/gallery/" component={ScreensGallery} /> */}
             </Switch>
         </HomepageLayout>
     </Router>

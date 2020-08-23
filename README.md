@@ -36,7 +36,7 @@ Runs the typescript linter on the code.
 
 ### `npm run deploy`
 
-Deploys the application to the master branch. 
+Deploys the application to the master branch.
 
 ## Learn More
 
@@ -50,7 +50,7 @@ Designed and built by Matt Jones, bootstrapped with create-react-app.
 -   [Typescript-eslint documentation](https://github.com/typescript-eslint/typescript-eslint). Coding standards enforcerer.
 -   [Prettier documentation](https://prettier.io/). Formatting code.
 -   [React Router documentation](https://reacttraining.com/react-router/). Declarative routing for React.
--   [Semantic UI React documentation](https://react.semantic-ui.com/). Manages fonts and styling.
+-   [Reactstrap documentation](https://reactstrap.github.io/). Manages fonts and styling.
 -   [React Helmet documentation](https://github.com/nfl/react-helmet). Manages the document head, including title, description, and meta tags.
 -   [React Snapshot documentation](https://www.npmjs.com/package/react-snapshot). A zero-configuration pre-renderer for React apps.
 -   [React Google Analytics](https://github.com/react-ga/react-ga). Tracking react page clicks and button clicks.

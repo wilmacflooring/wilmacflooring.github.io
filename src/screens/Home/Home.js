@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Container, Header, Segment } from 'semantic-ui-react';
 import Helmet from 'react-helmet';
 
 // import ProjectGroup from '../../components/Project/Group';
@@ -21,18 +20,19 @@ class ScreensHome extends Component {
             <React.Fragment>
                 {/* Defining the Page title, meta, description */}
                 <Helmet>
-                    <title>Rustic Santa - Home</title>
-                    <meta name="description" content="Contains the featured projects of Rustic Santa." />
+                    <title>Wilmac Flooring - Home</title>
+                    <meta name="description" content="Contains the featured projects of Wilmac Flooring." />
+                    {/* TODO: Add subject content for SEO. */}
                     <meta name="subject" content="Technology Portfolio" />
                 </Helmet>
-                <Segment inverted textAlign="center" className="Home-segment" vertical>
+                {/* <Segment inverted textAlign="center" className="Home-segment" vertical>
                     <Container text>
                         <Header as="h1" content="Rustic Santa" inverted className="Home-h1" />
                         <Header as="h2" content="Description to be added." inverted className="Home-h2" />
                     </Container>
-                </Segment>
+                </Segment> */}
                 {/* Header Page */}
-                <Segment textAlign="center" className="Home-segment" vertical>
+                {/* <Segment textAlign="center" className="Home-segment" vertical>
                     <Container>
                         <Grid columns={1}>
                             <Grid.Row>
@@ -47,7 +47,7 @@ class ScreensHome extends Component {
                             </Grid.Row>
                         </Grid>
                     </Container>
-                </Segment>
+                </Segment> */}
             </React.Fragment>
         );
     }

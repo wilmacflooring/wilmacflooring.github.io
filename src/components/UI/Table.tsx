@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Header } from 'semantic-ui-react';
+// import { Table, Header } from 'semantic-ui-react';
 
 interface IProps {
     title: string;
@@ -9,10 +9,31 @@ interface IProps {
 
 const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
     <div>
-        <Header inverted as="h3">
+        <header>{props.title}</header>
+        <table>
+            <thead>
+                <tr>
+                    {props.headers.map((header, index) => {
+                        return <th key={index}>{header}</th>;
+                    })}
+                </tr>
+            </thead>
+            <tbody>
+                {props.rows.map((row, index) => {
+                    return (
+                        <tr key={index}>
+                            {row.map((r: any, index: number) => {
+                                return <td key={index}>{r}</td>;
+                            })}
+                        </tr>
+                    );
+                })}
+            </tbody>
+        </table>
+        {/* <Header inverted as="h3">
             {props.title}
-        </Header>
-        <Table inverted unstackable>
+        </Header> */}
+        {/* <Table inverted unstackable>
             <Table.Header>
                 <Table.Row>
                     {props.headers.map((header, index) => {
@@ -20,7 +41,6 @@ const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
                     })}
                 </Table.Row>
             </Table.Header>
-
             <Table.Body>
                 {props.rows.map((row, index) => {
                     return (
@@ -32,7 +52,7 @@ const UITable: (props: IProps) => JSX.Element = (props: IProps) => (
                     );
                 })}
             </Table.Body>
-        </Table>
+        </Table> */}
     </div>
 );
 
