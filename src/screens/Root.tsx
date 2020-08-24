@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScreensHome from './Home/Home';
 import ScreensAbout from './About/About';
 import ScreensContact from './Contact/Contact';
-// import ScreensGallery from './Gallery/Gallery';
+import ScreensGallery from './Gallery/Gallery';
 import ScreensProducts from './Products/Products';
 import NotFound from 'src/components/UI/NotFound';
 
@@ -22,9 +22,9 @@ const ScreensRoot: () => JSX.Element = () => (
                 <Route path="/about/" component={ScreensAbout} />
                 <Route path="/contact/" component={ScreensContact} />
                 <Route path="/products/" component={ScreensProducts} />
+                <Route path="/gallery/" component={ScreensGallery} />
                 <Route component={NotFound} />
                 {/* <Route path="/products/" component={ScreensProducts} /> */}
-                {/* <Route path="/gallery/" component={ScreensGallery} /> */}
             </Switch>
         </HomepageLayout>
     </Router>
