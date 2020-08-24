@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import { Image, Transformation } from 'cloudinary-react';
 
 // import ProjectGroup from '../../components/Project/Group';
 import './Home.css';
@@ -26,6 +27,19 @@ class ScreensHome extends Component {
                     <meta name="subject" content="Technology Portfolio" />
                 </Helmet>
                 <h1>Coming Soon</h1>
+                <div className="Home">
+                    <Image
+                        cloudName="wilmacflooring"
+                        publicId="cropped-StairsTop_ywk1mh"
+                        secure={true}
+                        crop="scale"
+                        quality="auto"
+                        fetchFormat="auto"
+                        alt="Beautiful tile work done by Wilmac Flooring."
+                    >
+                        <Transformation crop="scale" />
+                    </Image>
+                </div>
 
                 {/* <Segment inverted textAlign="center" className="Home-segment" vertical>
                     <Container text>

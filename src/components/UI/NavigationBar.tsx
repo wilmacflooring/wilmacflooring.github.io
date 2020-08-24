@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Row, Col, Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+import { Container, Row, Col, Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, NavbarBrand } from 'reactstrap';
 import './NavigationBar.css';
 
 const NavigationBar: FunctionComponent = () => {
@@ -15,6 +15,7 @@ const NavigationBar: FunctionComponent = () => {
                 <Row>
                     <Col>
                         <Navbar color="fixed" light expand="md">
+                            <NavbarBrand href="/">WILMAC FLOORING</NavbarBrand>
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="mr-auto" navbar>
