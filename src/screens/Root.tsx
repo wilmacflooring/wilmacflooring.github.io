@@ -23,7 +23,7 @@ const ScreensRoot: () => JSX.Element = () => (
                 <Route path="/contact/" component={ScreensContact} />
                 <Route path="/products/" component={ScreensProducts} />
                 <Route path="/gallery/" component={ScreensGallery} />
-                <Route component={NotFound} />
+                <Route path="*" component={NotFound} />
                 {/* <Route path="/products/" component={ScreensProducts} /> */}
             </Switch>
         </HomepageLayout>
