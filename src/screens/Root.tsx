@@ -12,7 +12,7 @@ import GA from 'src/components/GoogleAnalytics';
 import HomepageLayout from 'src/components/HomepageLayout';
 
 const ScreensRoot: () => JSX.Element = () => (
-    <Router>
+    <Router basename="/">
         {/* Initialize Google Analytics and managing document title, description, and meta */}
         {GA.init() && <GA.RouteTracker />}
         <HomepageLayout>
