@@ -25,6 +25,9 @@ const NavigationBar: FunctionComponent = () => {
                                             radius="max"
                                             width="50"
                                             crop="fill"
+                                            secure={true}
+                                            quality="auto"
+                                            fetchFormat="auto"
                                         />
                                     </Image>{' '}
                                     WILMAC FLOORING
