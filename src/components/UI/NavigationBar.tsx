@@ -18,16 +18,20 @@ const NavigationBar: FunctionComponent = () => {
                         <Navbar color="fixed" light expand="md">
                             <NavbarBrand href="/">
                                 <div>
-                                    <Image cloudName="wilmacflooring" publicId="IMG_2550_wpodlk.jpg">
+                                    <Image
+                                        cloudName="wilmacflooring"
+                                        publicId="IMG_2550_wpodlk.jpg"
+                                        secure={true}
+                                        quality="auto"
+                                        fetchFormat="auto"
+                                        alt="Wilmac Flooring Logo"
+                                    >
                                         <Transformation
                                             aspectRatio="1:1"
                                             gravity="auto"
                                             radius="max"
                                             width="50"
                                             crop="fill"
-                                            secure={true}
-                                            quality="auto"
-                                            fetchFormat="auto"
                                         />
                                     </Image>{' '}
                                     WILMAC FLOORING
