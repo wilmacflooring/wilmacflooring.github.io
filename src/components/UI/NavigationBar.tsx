@@ -30,7 +30,7 @@ const NavigationBar: FunctionComponent = () => {
                                             aspectRatio="1:1"
                                             gravity="auto"
                                             radius="max"
-                                            width="50"
+                                            width="63"
                                             crop="fill"
                                         />
                                     </Image>{' '}
