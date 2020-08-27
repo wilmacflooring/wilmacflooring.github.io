@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, NavbarBrand } from 'reactstrap';
+import { Image, Transformation } from 'cloudinary-react';
 import './NavigationBar.css';
 
 const NavigationBar: FunctionComponent = () => {
@@ -15,7 +16,20 @@ const NavigationBar: FunctionComponent = () => {
                 <Row>
                     <Col>
                         <Navbar color="fixed" light expand="md">
-                            <NavbarBrand href="/">WILMAC FLOORING</NavbarBrand>
+                            <NavbarBrand href="/">
+                                <div>
+                                    <Image cloudName="wilmacflooring" publicId="IMG_2550_wpodlk.jpg">
+                                        <Transformation
+                                            aspectRatio="1:1"
+                                            gravity="auto"
+                                            radius="max"
+                                            width="50"
+                                            crop="fill"
+                                        />
+                                    </Image>{' '}
+                                    WILMAC FLOORING
+                                </div>
+                            </NavbarBrand>
                             <NavbarToggler onClick={toggle} />
                             <Collapse isOpen={isOpen} navbar>
                                 <Nav className="mr-auto" navbar>
