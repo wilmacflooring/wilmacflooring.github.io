@@ -20,7 +20,7 @@ const NavigationBar: FunctionComponent = () => {
                                 <div>
                                     <Image
                                         cloudName="wilmacflooring"
-                                        publicId="IMG_2550_wpodlk.jpg"
+                                        publicId="IMG_2550_wpodlk"
                                         secure={true}
                                         quality="auto"
                                         fetchFormat="auto"
