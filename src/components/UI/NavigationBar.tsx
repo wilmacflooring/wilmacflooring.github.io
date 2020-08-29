@@ -60,6 +60,11 @@ const NavigationBar: FunctionComponent = () => {
                                             Photo Gallery
                                         </NavLink>
                                     </NavItem>
+                                    {/* <NavItem active={activeItem === 4} onClick={() => handleClick(4)}>
+                                        <NavLink tag={Link} to="/newgallery" name="newgallery">
+                                            Photo Gallery
+                                        </NavLink>
+                                    </NavItem> */}
                                     {/* <NavItem>
                             <NavLink tag={Link} to="/contact" name="contact">
                                 Contact Us

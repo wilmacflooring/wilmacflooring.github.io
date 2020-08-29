@@ -6,9 +6,9 @@ const ScreensGallery: FunctionComponent = () => {
     return (
         <div>
             <Helmet>
-                <title>Wilmac Flooring - Our Products</title>
-                <meta name="description" content="Out Products page for Wilmac Flooring." />
-                <meta name="subject" content="Products" />
+                <title>Wilmac Flooring - Gallery</title>
+                <meta name="description" content="Gallery for Wilmac Flooring." />
+                <meta name="subject" content="Gallery" />
             </Helmet>
             <Container>
                 <Row>
@@ -40,6 +40,21 @@ const ScreensGallery: FunctionComponent = () => {
                                 target="_blank"
                             >
                                 Bathrooms and Showers
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://flic.kr/s/aHsjygcV7c" rel="noopener noreferrer" target="_blank">
+                                Entrys
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://flic.kr/s/aHsjygcTAe" rel="noopener noreferrer" target="_blank">
+                                Fireplaces
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://flic.kr/s/aHsjygcTAe" rel="noopener noreferrer" target="_blank">
+                                Stairs
                             </a>
                         </p>
                         <h2>By Material</h2>
