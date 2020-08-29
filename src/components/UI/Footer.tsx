@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { FaFacebook } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer: FunctionComponent = () => {
@@ -9,6 +10,13 @@ const Footer: FunctionComponent = () => {
                 <Row>
                     <Col>
                         <i>All content is copyright © {new Date().getFullYear()} Wilmac Flooring.</i>
+                    </Col>
+                    <Col>
+                        <div className="float-right">
+                            <a href="https://www.facebook.com/pages/category/Home-Improvement/Wilmac-Flooring-368533426579825/">
+                                <FaFacebook />
+                            </a>
+                        </div>
                     </Col>
                 </Row>
             </Container>
