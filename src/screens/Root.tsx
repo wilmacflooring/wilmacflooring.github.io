@@ -5,7 +5,6 @@ import ScreensHome from './Home/Home';
 import ScreensAbout from './About/About';
 import ScreensContact from './Contact/Contact';
 import ScreensGallery from './Gallery/Gallery';
-// import NewGallery from './Gallery/NewGallery';
 import ScreensProducts from './Products/Products';
 import NotFound from 'src/components/UI/NotFound';
 
@@ -24,7 +23,6 @@ const ScreensRoot: () => JSX.Element = () => (
                 <Route path="/contact/" component={ScreensContact} />
                 <Route path="/products/" component={ScreensProducts} />
                 <Route path="/gallery/" component={ScreensGallery} />
-                {/* <Route path="/newgallery/" component={NewGallery} /> */}
                 <Route path="*" component={NotFound} />
                 {/* <Route path="/products/" component={ScreensProducts} /> */}
             </Switch>
