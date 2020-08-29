@@ -10,8 +10,6 @@ const Footer: FunctionComponent = () => {
                 <Row>
                     <Col>
                         <i>All content is copyright © {new Date().getFullYear()} Wilmac Flooring.</i>
-                    </Col>
-                    <Col>
                         <div className="float-right">
                             <a href="https://www.facebook.com/pages/category/Home-Improvement/Wilmac-Flooring-368533426579825/">
                                 <FaFacebook />
